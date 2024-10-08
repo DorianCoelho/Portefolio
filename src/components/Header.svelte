@@ -30,10 +30,10 @@
   <div class="logo">Your Logo</div>
   <nav class:open={menuOpen}>
     <ul>
-      <li><a href="#about" on:click={closeMenu}>About</a></li>
-      <li><a href="#projects" on:click={closeMenu}>Projects</a></li>
+      <li><a href="#about" on:click={closeMenu}>Acerca de min</a></li>
+      <li><a href="#projects" on:click={closeMenu}>Proyectos</a></li>
       <li><a href="#skills" on:click={closeMenu}>Skills</a></li>
-      <li><a href="#contact" on:click={closeMenu}>Contact</a></li>
+      <li><a href="#contact" on:click={closeMenu}>Contacto</a></li>
     </ul>
   </nav>
   <div class="right-section">

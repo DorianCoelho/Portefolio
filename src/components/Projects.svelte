@@ -1,10 +1,10 @@
 <script lang="ts">
   const projects = [
     {
-      title: 'Project 1',
-      description: 'A responsive web application built with React and Node.js',
-      image: 'https://via.placeholder.com/400x300.png?text=Project+1',
-      url: '#'
+      title: 'Rs-jobs',
+      description: 'Portal hecho con .net y razor pages',
+      image: 'https://i.ibb.co/TbQ7wVr/Screenshot-2024-10-08-at-23-34-15.png',
+      url: 'https://app.rs-jobs.com'
     },
     {
       title: 'Project 2',
@@ -28,7 +28,7 @@
 </script>
 
 <section id="projects">
-  <h2>Projects</h2>
+  <h2>Proyectos</h2>
   <div class="project-grid">
     {#each projects as project}
       <div class="project">
@@ -36,7 +36,7 @@
         <div class="overlay">
           <h3>{project.title}</h3>
           <p>{project.description}</p>
-          <a href={project.url} class="btn" target="_blank" rel="noopener noreferrer">View Project</a>
+          <a href={project.url} class="btn" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
         </div>
       </div>
     {/each}

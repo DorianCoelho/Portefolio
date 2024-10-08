@@ -1,6 +1,6 @@
 <script lang="ts">
   // You can replace this URL with your actual photo URL
-  const photoUrl = "https://via.placeholder.com/150";
+  const photoUrl = "https://media.licdn.com/dms/image/v2/C5603AQGAir7_7sAWQw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1633426424493?e=1733961600&v=beta&t=P469QUObjPk_E_tcM3GjaqrGQhRQdjoOVC9OdHYnkK8";
 </script>
 
 <section id="about">
@@ -9,10 +9,9 @@
       <img src={photoUrl} alt="Profile photo" class="profile-photo" />
     </div>
     <div class="text-content">
-      <h2>About Me</h2>
+      <h2>Acerca de min</h2>
       <p>
-        Hello! I'm a fullstack developer passionate about creating beautiful and functional web applications.
-        With expertise in both frontend and backend technologies, I strive to deliver high-quality, scalable solutions.
+       Soy desarrollador fullstack con más de 5 años de experiencia en .NET y desarrollo de APIs REST. Trabajo con tecnologías de backend como Entity Framework, MVC y Postgres, y de frontend como JavaScript, HTML, CSS y Razor. Me enfoco en crear soluciones web dinámicas y eficientes, con un compromiso constante por el aprendizaje y la mejora continua.
       </p>
     </div>
   </div>
